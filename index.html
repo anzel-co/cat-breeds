@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A small project that gives information on different breeds of cats. This project is made possible by using a public api about cats.">
+        <meta name="keywords" content=" cat cats breeds project html5 css3 javascript js">
+        <meta name="author" content="Ansari Usman">
+        <meta name="author" content="anzel.co">
+
+        <link rel="stylesheet" href="style.css"/>
+
+        <title>Cat Breeds</title>
+        <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    </head>
+    <body>
+        <header>
+            <h1>CAT BREEDS</h1>
+            <small id="api">powered by <a href="https://thecatapi.com/" target="_blank">thecatapi.com</a></small>
+        </header>
+        <div id="main">
+            <div id="main-top">
+                <input value="" id="input" placeholder="Search for a cat's name, country, or a description"/>
+                <button class="bmt" id="names">Names</button>
+                <button class="bmt" id="weight">Weight</button>
+                <button class="bmt" id="ls">Lifespan</button>
+            </div>
+            <div id="main-bottom">
+                <p id='loading'>LOADING...</p>
+            </div>
+        </div>
+        <footer>Visit <a href="https://anzel.co/projects" target="_blank"><b>anzel.co/projects</b></a> to see my other projects.</br>
+            You can send me an email at <i>ansariusman@anzel.co.</i>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
